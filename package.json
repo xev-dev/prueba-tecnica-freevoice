@@ -1,0 +1,27 @@
+{
+  "name": "prueba_tecnica_freevoice",
+  "version": "1.0.0",
+  "description": "mini node js mysql app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xev023/prueba_tecnica_freevoice.git"
+  },
+  "author": "xev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xev023/prueba_tecnica_freevoice/issues"
+  },
+  "homepage": "https://github.com/xev023/prueba_tecnica_freevoice#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
+}

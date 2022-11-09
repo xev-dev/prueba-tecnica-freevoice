@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fetch using MySQL and Node.js</title>
+</head>
+<body>
+    <h1>Mi aplicación de prueba</h1>
+    <ul>
+        <%
+        orderData.forEach(function(data){
+        %>
+        <li>
+            <strong><%= data.product %>.</strong>Cantidad:<%= data.quantity %>.Importe medio:<%= data.price %>
+        </li>
+        <%});%>
+    </ul>
+</body>
